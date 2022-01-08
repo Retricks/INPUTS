@@ -5,7 +5,13 @@
 }
 
 body{
+    margin: 0;
+    padding: 0;
     background: #edf6f9;
     height: 100vh;
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
 }

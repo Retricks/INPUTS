@@ -8,14 +8,17 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <form class="inputs">
-        <input class="input inputs__text" type="text">
-        <textarea class="input inputs__textarea"></textarea>
-        <select class="input inputs__select">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-        </select>   
+    <form class="form">
+        <label class="form__label" for="form__text">Text</label>
+            <input id="form__text" class="form__input" type="text">
+        <label class="form__label" for="form__textarea">Text</label>
+            <textarea id="form__textarea" class="form__input"></textarea>
+        <label class="form__label" for="form__select"></label>
+            <select id="form__select" class="form__input">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
     </form>
 </body>
 </html>
